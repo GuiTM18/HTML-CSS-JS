@@ -1,0 +1,33 @@
+body{
+    background-color: darkcyan
+    ;
+    font: normal 15pt Sain;
+}
+header{
+    color: white;
+    text-align: center;
+}
+section{
+background-color: #f3f3f3;
+width: 500px;
+border-radius: 10px;
+padding: 15px;
+margin: auto;
+box-shadow: 3px 3px 20px #110530;
+}
+div#res{
+    text-align: center;
+    font: normal 20pt Sain;
+}
+div#foto{
+    text-align: center;
+    padding: 13px;
+    
+    
+}
+footer{
+color: white;
+text-align: center;
+font-style: italic;
+font: normal 18pt Sain;
+}

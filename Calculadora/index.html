@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="color">
+        <h1>Somando valores</h1>
+        
+        <p>
+            Escolha um sinal aritimético: <br>
+            <br>
+            <strong>
+                <input type="radio" name="rad" id="rad+" checked>Adição<br>
+                <input type="radio" name="rad" id="rad-">Subtração<br>
+                <input type="radio" name="rad" id="rad*">Multiplicação<br>
+                <input type="radio" name="rad" id="rad/">Divisão<br>
+            </strong>
+        </p>
+        <p>
+            <input type="number" name="number" id="txtn1">
+            <input type="number" name="number" id="txtn2">
+            <br>
+            <br>
+            <input type="button" value="Calcular" onclick="calcular()">
+
+        <div id="resultado"></div>
+        </p>
+    </div>
+
+    <script src="code.js"></script>
+</body>
+
+</html>
